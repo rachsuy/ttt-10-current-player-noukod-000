@@ -1,0 +1,21 @@
+# the methiode will take a argument of the board array and return the number of turns that have played
+board =[" ", " ", " ", " ", " ", " ", " ", " "," "]
+def turn_count(board)
+  counter = 0 
+  #move_turn = []
+  board.each do |element| 
+    if element == "X" || element == "O"
+      counter += 1
+      puts " element correspondant is #{element}"
+    board.push(1)
+    end
+   return board
+  end
+  move_count = board.length.to_i
+  
+end
+
+#this methode will should take in an  argument of the game board and use the turn_count to determinate if is X or turn O
+def current_player(board)
+  
+end
