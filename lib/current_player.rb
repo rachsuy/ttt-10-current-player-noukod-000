@@ -20,7 +20,7 @@ end
 
 def current_player(board)
   current_pla = turn_count(board)
-  if current_pla % 2 == 0 #&& (current_pla %2 =)
+  if current_pla.even? #&& (current_pla %2 =)
     return "X"
   else
     return "O"
