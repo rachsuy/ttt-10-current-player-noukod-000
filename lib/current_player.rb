@@ -7,9 +7,7 @@ def turn_count(board)
     if element == "X" || element == "O"
       counter += 1
       puts " element correspondant is #{element}"
-    board.push(1)
     end
-   return board
   end
  return counter
  puts "the position occupied is #{counter}"
