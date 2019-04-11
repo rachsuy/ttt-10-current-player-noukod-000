@@ -17,6 +17,10 @@ def turn_count(board)
 end
 
 #this methode will should take in an  argument of the game board and use the turn_count to determinate if is X or turn O
+
 def current_player(board)
+  current_pla = turn_count(board)
+  if current_pla % 2 == 0 
+    puts 
   
 end
