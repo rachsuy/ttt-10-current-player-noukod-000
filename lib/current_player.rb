@@ -11,7 +11,8 @@ def turn_count(board)
     end
    return board
   end
-  move_count = board.length.to_i
+ return counter
+ puts "the position occupied is #{counter}"
   
 end
 
