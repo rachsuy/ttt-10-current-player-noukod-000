@@ -5,10 +5,10 @@ def turn_count(board)
   #move_turn = []
   board.each do |element| 
     if element == "X" || element == "O"
-      counter += 1
+     
       puts " element correspondant is #{element}"
       puts "the position occupied is #{counter}"
-      
+       counter += 1
     end
   end
  return counter
