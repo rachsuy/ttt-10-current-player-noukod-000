@@ -7,10 +7,12 @@ def turn_count(board)
     if element == "X" || element == "O"
       counter += 1
       puts " element correspondant is #{element}"
+      puts "the position occupied is #{counter}"
+      
     end
   end
  return counter
- puts "the position occupied is #{counter}"
+ 
   
 end
 
