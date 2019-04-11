@@ -21,7 +21,7 @@ end
 def current_player(board)
   current_pla = turn_count(board)
   if current_pla % 2 == 0 
-    return element
+    return "X"
   else
     return element
   end
