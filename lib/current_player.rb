@@ -24,5 +24,6 @@ def current_player(board)
     return element
   else
     return element
+  end
   
 end
